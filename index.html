@@ -1,0 +1,453 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <title>yTalent</title>
+    <link rel="icon" type="imagem/png" href="img/logo3.png"/>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/mainStyle.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script>
+        var alturaDocumento = $(window).height();
+        function AlturaSecao() {
+            $('.secao').height(alturaDocumento);
+        }
+        console.log(alturaDocumento);
+
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+                $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 700);
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <!-- MENU -->
+    <nav id="menu">
+
+        <img class="logo" src="IMG/logo2.png">
+        <label for="toogle">&#9776;</label>
+        <input type="checkbox" id="toogle" />
+
+        <ul class="text-navbar">
+            <li><a class="scroll efeito-menu" href="#Home">Home</a></li>
+            <li><a class="scroll efeito-menu" href="#corpo-site">Sobre</a></li>
+            <li><a class="scroll efeito-menu" href="#esportes">Nossos Esportes</a></li>
+            <li><a class="scroll efeito-menu" href="#corpo-eSport">Nossos eSports</a></li>
+            <li><a class="scroll efeito-menu" href="#corpo-download">Download</a></li>
+        </ul>
+
+    </nav>
+    <!-- END--MENU--- -->
+
+    <!-- HEADER SITE -->
+    <section id="Home" class="secao header-site">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+
+                    <p class="titulo-ytalent">YourTalent</p>
+                    <p class="slogan-ytalent">Sua corrida até o sucesso</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END-- HEADER -->
+
+    <!-- CORPO SITEE -->
+
+    <section id="corpo-site" class="secao corpo-site">
+        <div id="sobre" class="container">
+            <div class="row">
+                <div class="col-md-12">
+
+                    <h1 class="text-center">Mostre o seu talento com YourTalent</h1>
+
+                    <p class="text-center">
+                    
+                    </p> <br>
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <div class="zoom">
+                            <img class="zoom-fotos" src="IMG/fallen.png">
+                        </div>
+                        <div class="caption text-center">
+
+                            <h3></h3>
+
+                            <p> 
+                                Não importa se o seu esporte favorito é eletrônico, nós temos todos os gostos.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="thumbnail">
+
+                        <div class="zoom">
+                            <img class="zoom-fotos" src="IMG/campoFutebol.jpg">
+                        </div>
+
+                        <div class="caption text-center">
+
+                            <h3></h3>
+
+                            <p>
+                                Poste seus videos jogando uma partida, sua rotina de treinos ou seus campeonatos, sinta a liberdade.
+                            </p>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="thumbnail">
+
+                        <div class="zoom">
+                            <img class="zoom-fotos" src="IMG/card-basquete2.jpg">
+                        </div>
+                        <div class="caption text-center">
+
+                            <h3></h3>
+
+                            <p>
+                                Os olheiros entrarão em contato, assim como possíveis patrocinadores e outros usuários do aplicativo.
+                            </p>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </section>
+    <section class="secao img-transicao1">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-12">
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <section id="esportes" class="secao corpo-site">
+
+        <div id="sobre" class="container">
+
+            <p class="titulo-esportes">Conheça alguns de nossos esportes</p>
+
+            <div class="row secao-esportes">
+
+                <!-- card de futebol -->
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <div class="zoom">
+                            <img class="card-img-top zoom-fotos" src="img/card-futebol2.jpg" alt="Card image cap">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Futebol</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- card de basquete -->
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <div class="zoom">
+                            <img class="card-img-top zoom-fotos" src="img/card-basquete.jpg" alt="Card image cap">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Basquete</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- card de skate -->
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <div class="zoom">
+                            <img class="card-img-top zoom-fotos" src="img/card-skate.jpg" alt="Card image cap">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Skate</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br><br>
+
+            <div class="row">
+                <!-- card de volei -->
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <div class="zoom">
+                            <img class="card-img-top zoom-fotos" src="img/card-volei.jpg" alt="Card image cap">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Vôlei</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <div class="zoom">
+                            <img class="card-img-top zoom-fotos" src="img/card-handbol.jpg" alt="Card image cap">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Handebol</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <div class="zoom">
+                            <img class="card-img-top zoom-fotos" src="img/card-judo.jpg" alt="Card image cap">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Judo</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <section class="secao img-transicao">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-12">
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- SESSÂO DO ESPORT -->
+    <section id="corpo-eSport" class="secao corpo-eSport">
+
+        <div id="sobre" class="container">
+
+            <p class="titulo-esportes">Nossos eSports</p>
+
+            <div class="row">
+
+                <!-- card de futebol -->
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <div class="zoom">
+                            <img class="card-img-top zoom-fotos" src="img/card-csgo.jpg" alt="Card image cap">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Conter Strike Global Offensive</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- card de basquete -->
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <div class="zoom">
+                            <img class="card-img-top zoom-fotos" src="img/card-r6.jpg" alt="Card image cap">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Rainbow Six</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- card de skate -->
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <div class="zoom">
+                            <img class="card-img-top zoom-fotos" src="img/card-lol.jpg" alt="Card image cap">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">League of Legends</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br><br>
+
+            <div class="row">
+                <!-- card de volei -->
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <div class="zoom">
+                            <img class="card-img-top zoom-fotos" src="img/card-dota2.jpg" alt="Card image cap">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Dota 2</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <div class="zoom">
+                            <img class="card-img-top zoom-fotos" src="img/card-fortnite.jpg" alt="Card image cap">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Fortnite</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <div class="zoom">
+                            <img class="card-img-top zoom-fotos" src="img/card-over.jpg" alt="Card image cap">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Overwatch</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="secao img-transicao4">
+
+            <div class="container">
+    
+                <div class="row">
+    
+                    <div class="col-md-12">
+    
+                    </div>
+    
+                </div>
+            </div>
+    
+        </section>
+
+    <!--Sessão download-->
+
+    <section id="corpo-download" class="secao corpo-download">
+
+        <div id="sobre" class="container">
+            <div class="row">
+                <div class="col-md-12 downloadtitulo">
+                    <h1 class="text-center downloadtituloh1">Disponível em breve para iOS e Android</h1>                        
+                </div>
+             </div> 
+             <div class="conteudodownload">
+                <img class="celapple" src="img/yourapple.png">
+                <img class="appstoredownload" src="img/appstore.png">
+                <img class="playstoredownload" src="img/playstore.png">
+                <img class="celandroid" src="img/yourandroid.png">
+             </div>
+        </div>
+    
+    </section>
+
+
+    <!--Transição footer-->
+
+    <section class="secao img-transicao3">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-12">
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- END -- CORPO DO SITE -->
+
+   <!-- FOOTER--SITE -->
+   <div class="footer">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="position-icones">
+                        <a href="#"><img class="logo-face" src="img/face-icon.png"></a>
+                        <a href="#"><img class="logo-tw" src="img/twitter-icon.png"></a>
+                        <a href="#"> <img class="logo-insta" src="img/insta-icon.png"></a>
+                        <a href="#"><img class="logo-yt" src="img/youtube-icon.png"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="text-footer">
+                        <li><a class="scroll efeito-menu" href="#Home">Home</a></li>
+                        <li><a class="scroll efeito-menu" href="#corpo-site">Sobre</a></li>
+                        <li><a class="scroll efeito-menu" href="#esportes">Nossos Esportes</a></li>
+                        <li><a class="scroll efeito-menu" href="#corpo-eSport">Nossos eSports</a></li>
+                        <li><a class="scroll efeito-menu" href="#corpo-download">Download</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="end-footer">
+            <p class="copyright-footer"> © Copyright 2019 YoutTalent - Todos os Direitos Reservados</p>
+        </div>
+    </div>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="JS/index.js"></script>
+</body>
+
+<!--Textos
+
+Poste seus videos jogando uma partida, sua rotina de treinos, onde você já treinou, etc.
+
+Seguindo a linha de raciocinio do futebol, poste suas partidas seus melhores lances, seus treinos.
+
+
+
+-->
+
+</html>
