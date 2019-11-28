@@ -60,7 +60,7 @@
 }
 
 .img-transicao4 {
-    background-image: url(../IMG/bkDOWNLOAD.jpg);
+    background-image: url(../IMG/bkDOWNLOAD.png);
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -83,7 +83,7 @@
     font-size: 93px;
     margin-bottom: 21px;
     text-align: center;
-    color: #ffffff;
+    color: #fff;
     transition: 0.6s;
     margin-top: -10px;
 }
@@ -118,12 +118,17 @@
 .zoom {
     overflow: hidden;
 }
-
+#texto {
+    position: absolute;
+    font-size: 32px;
+    left: 250px;
+    top: 135px;
+  }
 .zoom-fotos {
     max-width: 100%;
     -moz-transition: all 0.3s;
     -webkit-transition: all 0.3s;
-    transition: all 0.3s;
+    transition: all 0.3s;   
 }
 
 .zoom-fotos:hover {
@@ -181,13 +186,13 @@ nav ul li a {
 .efeito-menu:hover {
     text-decoration: none;
     transition: 0.3s;
-    color: #f18913;
+    color: #9c27b0;
 }
 
 .logo {
-    height: 60px;
+    height: 120px;
     float: left;
-    margin: 16px 48px;
+    margin: 5px 48px;
 }
 
 nav.black {
